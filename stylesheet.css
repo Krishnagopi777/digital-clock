@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .panel {
+    position: relative;
+    background: #1c1c1c;
+    border-radius: 14px;
+    padding: 30px 40px 25px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255,255,255,0.02);
+  }
+
+  .label {
+    color: #d9a441;
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 6px;
+  }
+
+  .title {
+    color: #f0f0f0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+
+  .digit-box {
+    background: #000;
+    color: #d9a441;
+    font-size: 34px;
+    font-weight: bold;
+    padding: 10px 12px;
+    border-radius: 6px;
+    min-width: 34px;
+    text-align: center;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.8);
+    text-shadow: 0 0 8px rgba(217, 164, 65, 0.6);
+  }
+
+  .colon {
+    color: #d9a441;
+    font-size: 28px;
+    font-weight: bold;
+    padding-bottom: 4px;
+  }
+
+  .ampm {
+    font-size: 20px;
+    padding: 10px 10px;
+  }
+
+  .date {
+    color: #cfcfcf;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
